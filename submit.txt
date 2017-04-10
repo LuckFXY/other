@@ -1,0 +1,8 @@
+mkdir test
+cd test
+git init
+echo "这是一个测试test ssh key"> hello.md
+git add hello.md
+git commit -m "add hello.md"
+git remote add test git@github.com:heavystream/test-ssh-key.git
+git push -u test master

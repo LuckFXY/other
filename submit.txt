@@ -7,3 +7,5 @@ git commit -m "add hello.md"
 #create local git
 git remote add origin git@github.com:heavystream/test-ssh-key.git
 git push -u origin master
+git reflog
+git reset HEAD~1
